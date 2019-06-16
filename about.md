@@ -8,4 +8,5 @@ I currently work at Boxed Wholesale. My interests lies in Artificial Intelligenc
 
 My current focus is on improving my software engineering skills. Occasionally, I read research papers on topics I'm interested in. And other times, I work out and enjoy a good time with my social circle.
 
+Feel free to contact me or request for a copy of my resume!
 email: <terencelimxp@gmail.com>
