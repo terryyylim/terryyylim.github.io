@@ -6,7 +6,9 @@ categories: [python]
 ---
 Day-in-day-out, we face a myriad of tasks at work, and sometimes even from friends. Not too long ago, a friend of mine approached me to help with a task her manager assigned her.
 
-![Screenshot broadcast](https://raw.githubusercontent.com/terryyylim/terryyylim.github.io/master/static/img/_posts/post1_image1.png  "Screenshot broadcast")
+<p align="center">
+<img src="https://raw.githubusercontent.com/terryyylim/terryyylim.github.io/master/static/img/_posts/post1_image1.png" alt="Screenshot broadcast" style="max-width:100%;">
+</p>
 
 The task was simple, to find out the location of all Headquarters in a list of companies. The list consisted of approximately 1300 companies.
 
