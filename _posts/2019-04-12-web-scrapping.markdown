@@ -51,7 +51,9 @@ Do not crawl data too aggressively on the website as you may crash it.
 **Analyzing the Web-Page**  
 As mentioned earlier, it is vital to check out the HTML tags prior to scraping. Let’s start with a simple page from Glassdoor as an example. We can easily do that by right-clicking on any page and clicking the `inspect` button.
 
-![Screenshot broadcast](https://raw.githubusercontent.com/terryyylim/terryyylim.github.io/master/static/img/_posts/post1_image2.png  "Screenshot broadcast")
+<p align="center">
+<img src="https://raw.githubusercontent.com/terryyylim/terryyylim.github.io/master/static/img/_posts/post1_image2.png" alt="Screenshot broadcast" style="max-width:100%;">
+</p>
 
 By simply hovering your cursor around the webpage, you will be able to find the respective HTML tag that nests the information you need.
 
@@ -74,7 +76,9 @@ Then, we’ll access Response object, r body as bytes, by r.content and parsing 
 `page = BS(r.content, 'lxml')`  
 Next, we’ll extract a list of all the information nested within the similar `<div class=“infoEntity”>` HTML tags. This can be done easily with BeautifulSoup’s `findall` API.
 
-![Screenshot broadcast](https://raw.githubusercontent.com/terryyylim/terryyylim.github.io/master/static/img/_posts/post1_image3.png  "Screenshot broadcast")
+<p align="center">
+<img src="https://raw.githubusercontent.com/terryyylim/terryyylim.github.io/master/static/img/_posts/post1_image3.png" alt="Screenshot broadcast" style="max-width:100%;">
+</p>
 
 As we expand each `<div>` tag further, we’ll notice a similar pattern, where the “headers” are found within the `<label>` tags and the information we want are found within the `<span>` tags. Let’s tackle this one step at a time.
 
